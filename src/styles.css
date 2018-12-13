@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.item {
+  width: 40px;
+  height: 10px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.item:hover {
+  background-color: darkslategrey;
+}
+
+.item:active {
+  background-color: lightslategray;
+}
